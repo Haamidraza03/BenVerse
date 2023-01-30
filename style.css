@@ -5,8 +5,8 @@ body{
     margin: 0;
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
-    background-color: #d2d01a;
-    background-image: linear-gradient(45deg, #d2d01a 30%, #85FFBD 100%);
+    background-color: yellow;
+    background-image: linear-gradient(to bottom, yellow,green);
 
 }
 
@@ -62,11 +62,15 @@ body{
 }
 
 .card{
-    background-color: rgb(17, 180, 17);
+    background-color: yellow;
+    background-image: linear-gradient(to bottom, yellow,green);
+    /* background-color: rgb(17, 180, 17); */
     width:280px;
-    border:1px solid black;
+    /* border:1px solid black; */
     border-radius: 30px;
-    padding:10px;
+    padding:5px;
+    padding-top: 15px;
+    padding-bottom: 10px;
     margin-bottom: 20px;
     box-shadow: 5px 0px 10px rgb(32, 27, 27);
 }
@@ -88,7 +92,7 @@ body{
 }
 
 .image img{
-    border:2px solid black;
+    /* border:2px solid black; */
     border-radius: 30px;
 }
 
@@ -151,7 +155,7 @@ a:hover{
     text-align: center;
     background-color: black;
     color:white;
-    border:1px solid rgb(0, 0, 0);
+    /* border:1px solid rgb(0, 0, 0); */
     border-radius: 10px;
     padding:25px 15px;
 }
