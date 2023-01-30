@@ -72,13 +72,13 @@ body{
     padding-top: 15px;
     padding-bottom: 10px;
     margin-bottom: 20px;
-    box-shadow: 5px 0px 10px rgb(32, 27, 27);
+    box-shadow: 5px 0px 7px rgb(32, 27, 27);
 }
 
 .card:hover
 {
-    -webkit-box-shadow:5px 5px 20px black;
-    box-shadow:5px 5px 20px black;
+    -webkit-box-shadow:5px 5px 20px 8px black;
+    box-shadow:5px 5px 20px 8px black;
     transition: 0.4s ease-in-out;
     transform:scale(1.1);
 }
@@ -169,7 +169,7 @@ a:hover{
     font-size: 20px;
 }
 
-@media(max-width:320px)
+/* @media(max-width:320px)
 {
     #ho{
         display:none;
@@ -206,7 +206,7 @@ a:hover{
         margin-right:10px;
         margin-bottom: 30px;
     }
-}
+} */
 
 @media(max-width:425px)
 {
@@ -225,13 +225,18 @@ a:hover{
         display: flex;
     }
 
+    .ul-list{
+        position: relative;
+        z-index: 2;
+    }
+
     .main{
         padding-top: 40vh;
         padding-left:1px;
     }
 
     .main h1{
-        margin: 0px 0px 10px 10px;
+        margin: 0px 0px 10px 5px;
         font-size:50px;
         text-align: center;
     }
@@ -245,6 +250,10 @@ a:hover{
     .card{
         margin-left:10px;
         margin-right:10px;
-        margin-bottom: 30px;
+        margin-bottom: 63px;
+    }
+
+    .image{
+        margin:25px;
     }
 }
